@@ -21,4 +21,4 @@ Per qualsiasi problema non esitare a contattarmi su discord 𝓟𝓸𝓽𝓪𝓼
 
 
 
-p.s. è ancora una pre-relase a breve uscirà la versione per BungeeChord con alcuni accorgimenti!
+p.s. è ancora una pre-relase a breve uscirà la versione per BungeeCord con alcuni accorgimenti!

@@ -1,0 +1,7 @@
+dependencies {
+    compileOnly group: "org.spigotmc", name: "spigot-api", version: "1.8.8-R0.1-SNAPSHOT"
+    implementation project(":nuvotifier-api")
+    implementation project(":nuvotifier-common")
+    implementation group: 'org.json', name: 'json', version: '20090211'
+}
+

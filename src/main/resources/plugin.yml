@@ -1,7 +1,0 @@
-name: VotifierAddon
-version: ${project.version}
-main: dev.potassio.vaddon.votifierAddon
-authors: [ Potassio ]
-description: Un semplice addon per NuVotifier per i voti provenienti da mc italia
-website: https://potassio.dev
-depend: [Votifier]

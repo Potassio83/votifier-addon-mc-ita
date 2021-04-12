@@ -1,14 +1,13 @@
 # votifier-addon-mc-ita
 
-Una fork di NuVotifier compatibile con BungeeCord e Bukkit con la possibilità di "ricevere" i voti da Minecraft-Italia
+Una fork di NuVotifier https://github.com/nuvotifier/NuVotifier compatibile con BungeeCord e Bukkit con la possibilità di "ricevere" i voti da Minecraft-Italia
 
-~~un semplice plugin che sfrutta votifier (o meglio NuVotifier) per i voti provenienti da mc italia
+~~un semplice plugin che sfrutta votifier (o meglio NuVotifier) per i voti provenienti da mc italia~~
 
 ~~## dipendenze
 Per utilizzare questa espanzione è necessario usare NuVotifier
 https://www.spigotmc.org/resources/nuvotifier.13449/
-https://github.com/nuvotifier/NuVotifier
-
+https://github.com/nuvotifier/NuVotifier~~
 
 
 ## setup

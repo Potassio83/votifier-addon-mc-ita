@@ -19,6 +19,7 @@
 package com.vexsoftware.votifier;
 
 import com.vexsoftware.votifier.cmd.NVReloadCmd;
+import com.vexsoftware.votifier.cmd.ResendVotesCmd;
 import com.vexsoftware.votifier.cmd.TestVoteCmd;
 import com.vexsoftware.votifier.forwarding.BukkitPluginMessagingForwardingSink;
 import com.vexsoftware.votifier.support.forwarding.ForwardedVoteListener;
@@ -92,7 +93,7 @@ public class NuVotifierBukkit extends JavaPlugin implements VoteHandler, Votifie
     /**
      * Mc-ita API
      */
-    private String url;
+    public String url;
 
     private boolean loadAndBind() {
         scheduler = new BukkitScheduler(this);
@@ -303,7 +304,7 @@ public class NuVotifierBukkit extends JavaPlugin implements VoteHandler, Votifie
     public void onEnable() {
         getCommand("nvreload").setExecutor(new NVReloadCmd(this));
         getCommand("testvote").setExecutor(new TestVoteCmd(this));
-
+        getCommand("resendvotes").setExecutor(new ResendVotesCmd(this));
         if (!loadAndBind()) {
             gracefulExit();
             setEnabled(false); // safer to just bomb out

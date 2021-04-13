@@ -2,6 +2,7 @@ package com.vexsoftware.votifier.bungee;
 
 import com.vexsoftware.votifier.VoteHandler;
 import com.vexsoftware.votifier.bungee.cmd.NVReloadCmd;
+import com.vexsoftware.votifier.bungee.cmd.ResendVotesCmd;
 import com.vexsoftware.votifier.bungee.cmd.TestVoteCmd;
 import com.vexsoftware.votifier.net.VotifierServerBootstrap;
 import com.vexsoftware.votifier.platform.BackendServer;
@@ -89,7 +90,7 @@ public class NuVotifier extends Plugin implements VoteHandler, ProxyVotifierPlug
     /**
      * Mc-ita API
      */
-    private String url;
+    public String url;
 
 
 
@@ -346,6 +347,7 @@ public class NuVotifier extends Plugin implements VoteHandler, ProxyVotifierPlug
         pm.registerCommand(this, new NVReloadCmd(this));
         pm.registerCommand(this, new TestVoteCmd(this));
         pm.registerListener(this, new ReloadListener(this));
+        pm.registerCommand(this, new ResendVotesCmd(this));
 
         loadAndBind();
         System.out.println("_______       ____   ____     __  .__  _____.__               ___________           __    \n" +

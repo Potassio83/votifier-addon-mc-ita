@@ -16,6 +16,12 @@ commands:
     permission: nuvotifier.testvote
     permission-message: "You do not have permission to run this command."
     usage: "/testvote [username] [serviceName=?] [username=?] [address=?] [localTimestamp=?] [timestamp=?]"
+  resendvotes:
+    permission: nuvotifier.resendvotes
+    permission-message: "You do not have permission to run this command."
+    usage: "/resendvotes"
+
+
 
 permissions:
   nuvotifier.reload:

@@ -21,7 +21,7 @@ mc-italia:
 Per ottenere l'url dell'endpoint da inserire in "apiUrl" basterà seguire questa guida: https://discord.com/channels/522487914303586315/783676150554951710/818894337311375361
 
 
-Per qualsiasi problema non esitare a contattarmi su discord 𝓟𝓸𝓽𝓪𝓼𝓼𝓲𝓸#6969.
+Per qualsiasi problema non esitare a contattarmi su discord 𝓟𝓸𝓽𝓪𝓼𝓼𝓲𝓸#0083.
 
 
 
